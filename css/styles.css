@@ -32,6 +32,10 @@
             color: #2E2F42;
     }
 
+    .header-nav a {
+        color: #2e2f42;
+    }
+
     .nav {
         font-weight: 500;
             font-size: 16px;
@@ -111,7 +115,11 @@
 }
 
 .team-section {
-    color: #F4F4FD;
+    background-color: #F4F4FD;
+}
+
+.team-ul {
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -119,7 +127,7 @@
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        line-height: 1.11;
+        line-height: 1.2;
         text-align: center;
         color: #2E2F42;
         text-transform: capitalize;
@@ -130,6 +138,7 @@
         letter-spacing: 0.02em;
         line-height: 1.5;
         text-align: center;
+        color: #434455;
 }
 
 .portfolio-title {
@@ -148,8 +157,6 @@
 }
 
 .footer {
-    width: 1440px;
-        height: 312px;
     background-color: #2E2F42;
 }
 
