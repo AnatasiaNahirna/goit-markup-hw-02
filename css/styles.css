@@ -12,6 +12,11 @@
         text-decoration: none;
     }
 
+    a:hover,
+    a:focus {
+        color: #4D5AE5;
+    }
+
     .logo {
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
@@ -66,7 +71,14 @@
             letter-spacing: 0.04em;
             color: #FFFFFF;
             background: #4D5AE5;
+            cursor: pointer;
     }
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+           }
 
 
 .benefits-title {
