@@ -40,12 +40,16 @@
             color: #434455;
     }
 
+.address {
+    font-style: normal;
+}
+
     .contacts {
         font-style: normal;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #2E2F42;
+            color: #434455;
     }
 
     .first-section {
@@ -100,8 +104,14 @@
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
+        line-height: 1.11;
+        text-transform: capitalize;
         text-align: center;
         color: #2E2F42;
+}
+
+.team-section {
+    color: #F4F4FD;
 }
 
 .team-title {
@@ -109,13 +119,16 @@
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        line-height: 1.11;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 
 .team-text {
         font-size: 16px;
         letter-spacing: 0.02em;
+        line-height: 1.5;
         text-align: center;
 }
 
@@ -123,7 +136,7 @@
     font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
-        line-height: 1.11;
+        line-height: 1.2;
         text-transform: capitalize;
         color: #2E2F42;
 }
@@ -141,12 +154,18 @@
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.1;
         letter-spacing: 0.03em;
+        line-height: 1.17;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4d5ae5;
+}
+
+.logo-part-footer {
+    color: #F4F4FD;
 }
 
 .footer-text {
