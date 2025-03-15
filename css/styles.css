@@ -44,8 +44,8 @@
             color: #434455;
     }
 
-    .nav a:hover,
-    .nav a:focus {
+    .nav:hover,
+    .nav:focus {
         color: #404bbf;
     }
 
